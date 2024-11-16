@@ -19,7 +19,6 @@ jobs:
 
       - name: Checkout
         uses: actions/checkout@v4
-        # TODO: 要確認: デフォルトブランチ以外も可？
         with:
           ref: keep-active
 
